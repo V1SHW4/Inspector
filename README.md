@@ -1,5 +1,5 @@
 # Inspector
-Webscraper Version 1.0
+Webscraper Version 2.0
 Created by xRO
 
 ➲HOW TO INSTALL
