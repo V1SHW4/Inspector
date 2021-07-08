@@ -1,6 +1,6 @@
 import requests
 import os
-os.system(  clear  )
+os.system('clear')
 print("""\33[33m▀█▀ █▀▀▄ █▀▀ █▀▀█ █▀▀ █▀▀ ▀▀█▀▀ █▀▀█ █▀▀█ 
 ░█─ █──█ ▀▀█ █──█ █▀▀ █── ──█── █──█ █▄▄▀ 
 ▄█▄ ▀──▀ ▀▀▀ █▀▀▀ ▀▀▀ ▀▀▀ ──▀── ▀▀▀▀ ▀─▀▀""")
@@ -13,7 +13,7 @@ print("__________________________________________________")
 link=input("Enter Site Link>>")
 print()
 print("[1]Inspect Website\n[2]Download Image Code\n[3]Check Status Code\n[4]Get site details\n[5]Cookie Tracker\n[6]Check Available Requests\n[7]Full details about data\n[8]Check Encoding")
-choice=input(  Enter your Choice>>  )
+choice=input(  "Enter your Choice>>" )
 if choice=="1":
 	try:
 		r=requests.get(link)
